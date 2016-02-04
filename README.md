@@ -34,7 +34,7 @@ To install run `ansible-galaxy install ansible-city.java` or add this to your
 `roles.yml`
 
 ```YAML
-- name: ansible-city.java
+- src: ansible-city.java
   version: v1.0
 ```
 
@@ -63,5 +63,5 @@ To simply install Java:
   hosts: sandbox
 
   roles:
-    - name: java
+    - role: ansible-cfg.java
 ```
