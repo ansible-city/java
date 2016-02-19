@@ -13,4 +13,4 @@
         - build
 
   roles:
-    - name: java
+    - role: java
